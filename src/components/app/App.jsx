@@ -4,10 +4,6 @@ import CharList from "../charList/CharList";
 import CharInfo from "../charInfo/CharInfo";
 
 import decoration from "../../resources/img/vision.png";
-import MarvelService from "../../services/MarvelService";
-
-const marvelService = new MarvelService();
-marvelService.getCharacter(1011052).then((res) => console.log(res));
 
 const App = () => {
   return (
